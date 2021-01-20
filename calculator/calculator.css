@@ -11,13 +11,23 @@ body {
     width: 400px;
     background-color: black;
     color: white;
+    border-width: 10px;
+    border-radius: 5px;
+    border-style: ridge;
+    border-color:silver;
 }
 
 .screen {
+    height: 100px;
     font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
-    padding: 30px 5px;
+    padding: 20px 10px;
+    border-width: 10px;
+    border-radius: 5px;
+    border-style: ridge;
+    border-color: pink;
+    margin: 2px;
 }
 
 .calc-button {
@@ -26,9 +36,10 @@ body {
     height: 100px;
     width: 24.5%;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     font-size: 40px;
     cursor: pointer;
+    margin: 1px 2px;
 }
 
 .calc-button:hover {
