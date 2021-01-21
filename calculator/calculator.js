@@ -62,7 +62,6 @@ function handleMath(value) {
         flushOperation(intBuffer);
     }
     previousOperator = value;
-    // buffer = "" + previousOperator;
     buffer = "";
 }
 
